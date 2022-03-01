@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxdemo.HelloController">
+    <children>
+        <TextField fx:id="uname" layoutX="151.0" layoutY="42.0" />
+        <Text layoutX="37.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+        <PasswordField layoutX="151.0" layoutY="88.0" />
+        <Text fx:id="password" layoutX="37.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+        <TextField fx:id="fullname" layoutX="151.0" layoutY="135.0" />
+        <Text fx:id="fname" layoutX="37.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name" />
+        <TextField fx:id="email1" layoutX="151.0" layoutY="182.0" />
+        <TextField fx:id="pnum" layoutX="151.0" layoutY="230.0" />
+        <Text fx:id="email" layoutX="37.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+        <Text fx:id="phone" layoutX="37.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone #" />
+        <DatePicker layoutX="151.0" layoutY="278.0" />
+        <Text fx:id="dob" layoutX="37.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth" />
+        <Button fx:id="registerButton" layoutX="151.0" layoutY="343.0" mnemonicParsing="false" onAction="#registerAction" text="Register" />
+    </children>
+</Pane>
