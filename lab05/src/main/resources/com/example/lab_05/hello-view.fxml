@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TableView fx:id="tableview" prefHeight="200.0" prefWidth="200.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="SID" />
+                <TableColumn prefWidth="75.0" text="assignments" />
+                <TableColumn prefWidth="75.0" text="midterm" />
+                <TableColumn prefWidth="75.0" text="final exam" />
+                <TableColumn prefWidth="75.0" text="final mark" />
+                <TableColumn prefWidth="75.0" text="grade" />
+            </columns>
+        </TableView>
+    </children>
+</VBox>
+
